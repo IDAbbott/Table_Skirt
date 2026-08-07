@@ -67,11 +67,12 @@
         },
         {
           "name": "yDist",
-          "ioValue": 100
+          "ioValue": 50
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
@@ -91,7 +92,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -50
         },
         {
           "name": "zDist",
@@ -194,7 +195,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 100
+          "ioValue": 125
         }
       ]
     },
@@ -263,7 +264,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 37.5
+          "ioValue": 17.5
         },
         {
           "name": "zDist",
@@ -284,12 +285,13 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 50,
+          "currentEquation": "50"
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "zDist",
@@ -306,7 +308,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "move-extrude-rectangle-100-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-0-250",
+            "geometry": "move-extrude-rectangle-100-125-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-50-0-250",
             "dimension": "3D",
             "plane": {
               "origin": [
@@ -333,7 +335,7 @@
         {
           "name": "Shape 2",
           "ioValue": {
-            "geometry": "move-extrude-rectangle-100-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-250-0-37.5-0",
+            "geometry": "move-extrude-rectangle-100-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-250-0-17.5-0",
             "dimension": "3D",
             "plane": {
               "origin": [

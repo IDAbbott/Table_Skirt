@@ -514,8 +514,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3354551241247613,
-      "y": 0.8459915611814345,
+      "x": 0.5028644175684278,
+      "y": 0.6624472573839661,
       "uniqueID": "id-3808",
       "ioValues": [
         {
@@ -528,11 +528,85 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 50
         },
         {
           "name": "zDist",
           "ioValue": 200
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5238701464035646,
+      "y": 0.9746835443037974,
+      "uniqueID": "id-3814",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -50
+        },
+        {
+          "name": "zDist",
+          "ioValue": 200
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3933800127307448,
+      "y": 0.8227848101265823,
+      "uniqueID": "id-3826",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.5652450668364098,
+      "y": 0.7932489451476793,
+      "uniqueID": "id-3832",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 50,
+          "currentEquation": "50"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 178
         }
       ]
     }
@@ -662,6 +736,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3804",
       "ap2ID": "id-3808"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3804",
+      "ap2ID": "id-3814"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3804",
+      "ap2ID": "id-3826"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3826",
+      "ap2ID": "id-3832"
     }
   ],
   "unitsKey": "MM",

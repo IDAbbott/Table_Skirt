@@ -193,7 +193,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 67
+          "ioValue": 82
         }
       ]
     },
@@ -209,7 +209,7 @@
         },
         {
           "name": "height",
-          "ioValue": 2.5
+          "ioValue": 25
         }
       ]
     },
@@ -261,18 +261,19 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 50
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.249013367281986,
-      "y": 0.5485232067510548,
+      "x": 0.2539783577339274,
+      "y": 0.5421940928270041,
       "uniqueID": "id-3764",
       "ioValues": [
         {
@@ -281,7 +282,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
@@ -289,9 +291,72 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 250
         }
       ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.3239974538510503,
+      "y": 0.6350210970464134,
+      "uniqueID": "id-3770",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "move-extrude-rectangle-100-82-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-25-0-0-250",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-extrude-rectangle-100-25-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-250-0-50-0",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -359,6 +424,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-3754",
       "ap2ID": "id-3758"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3758",
+      "ap2ID": "id-3770"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-3764",
+      "ap2ID": "id-3770"
     }
   ],
   "unitsKey": "MM",

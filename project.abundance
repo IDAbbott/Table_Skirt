@@ -514,8 +514,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5028644175684278,
-      "y": 0.6624472573839661,
+      "x": 0.5295989815404202,
+      "y": 0.6751054852320675,
       "uniqueID": "id-3808",
       "ioValues": [
         {
@@ -597,16 +597,17 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "yDist",
-          "ioValue": 50,
-          "currentEquation": "50"
+          "ioValue": 0
         },
         {
           "name": "zDist",
-          "ioValue": 178
+          "ioValue": 182,
+          "currentEquation": "182"
         }
       ]
     }

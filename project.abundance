@@ -479,6 +479,62 @@
           "ioValue": 170
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.036919159770846595,
+      "y": 0.8649789029535866,
+      "uniqueID": "id-3800",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 18
+        },
+        {
+          "name": "y length",
+          "ioValue": 18
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.1369191597708466,
+      "y": 0.8649789029535866,
+      "uniqueID": "id-3804",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 64
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3354551241247613,
+      "y": 0.8459915611814345,
+      "uniqueID": "id-3808",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 200
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -577,7 +633,11 @@
       "ap1ID": "id-3770",
       "ap2ID": "id-3786"
     },
-    null,
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-3775",
+      "ap2ID": "id-3698"
+    },
     {
       "ap2Name": "Shape 2",
       "ap1ID": "id-3780",
@@ -592,6 +652,16 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-3793",
       "ap2ID": "id-3770"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3800",
+      "ap2ID": "id-3804"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3804",
+      "ap2ID": "id-3808"
     }
   ],
   "unitsKey": "MM",
